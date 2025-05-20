@@ -35,3 +35,18 @@
 the same websocket protocol? Where is it defined?
 
 <p align="justify">I changed both the client side and server side to listen on port 8080. The new version is still using the same WebSocket protocol for the client side. In the client side, it is defined in the ClientBuilder, while in the server side, it is defined in the TcpListener.</p>
+
+## Reflection 2.3
+
+>Make your own modification. Capture the result, put it in the Readme.md and put some
+explanation why you change it there.
+
+### New Server
+![newserver](img/newserver.png)
+
+### New Clients
+![client1](img/client.png)
+
+![client2](img/client2.png)
+
+<p align="justify">I made a small change in the client.rs file to add my name (Kevin's Computer) to the terminal message. Also, in the server.rs file, I changed it so that it shows my IP and port (addr).</p>
